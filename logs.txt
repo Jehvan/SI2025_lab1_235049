@@ -1,0 +1,16 @@
+$ git log --oneline --graph --all
+*   b3eeeb0 (HEAD -> master, origin/master) Merge branch '8-mark-a-task-as-completed-by-name'
+|\
+| * 2e8fb59 (origin/8-mark-a-task-as-completed-by-name, 8-mark-a-task-as-completed-by-name) Implement method
+* |   2a9b958 Merge pull request #11 from Jehvan/2-find-all-completed-tasks
+|\ \
+| * | c6aacb3 (origin/2-find-all-completed-tasks, 2-find-all-completed-tasks) Implemented method
+| |/
+* |   c0fb3d9 Merge pull request #10 from Jehvan/1-remove-a-task-by-name
+|\ \
+| |/
+|/|
+| * 645f5aa (origin/1-remove-a-task-by-name, 1-remove-a-task-by-name) Implement method
+|/
+* b8252a6 Add starter code
+* 1c40499 Initial commit

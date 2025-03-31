@@ -1,0 +1,26 @@
+git fetch origin
+git checkout 1-remove-a-task-by-name
+git add .
+git commit -m "Implement method"
+git push origin 1-remove-a-task-by-name
+git checkout 2-find-all-completed-tasks
+git add .
+git commit -m "Implement method"
+git push origin 2-find-all-completed-tasks
+git checkout 8-mark-a-task-as-completed-by-name
+git add .
+git commit -m "Implement method"
+git push origin 8-mark-a-task-as-completed-by-name
+
+git checkout master
+git pull origin master
+remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (4/4), done.
+
+Auto-merging SI2025Lab1Main.java
+Merge made by the 'ort' strategy.
+ SI2025Lab1Main.java | 5 +++++
+ 1 file changed, 5 insertions(+)
+git push origin master
+
